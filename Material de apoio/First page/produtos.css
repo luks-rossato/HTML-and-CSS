@@ -59,12 +59,25 @@ nav a:hover{
 
 .produtos li{
     display: inline-block;
-    margin: 5% 2%;
+    margin: 5% 1.5%;
     width: 25%;
     vertical-align: top;
     text-align: center;   
     border: 5px solid gray;
     border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.produtos li:hover{
+    border: 7px solid purple;
+}
+
+.produtos li:hover h2{
+    color: purple;
+}
+
+.produtos li:active{
+    border: 7px solid purple;
 }
 
 .produtos h2{
@@ -82,4 +95,5 @@ nav a:hover{
     color: rgba(0, 0, 0, 0.612);
     font-size: 1.5em;
     font-weight: bold;
+    margin: 10px 0;
 }
