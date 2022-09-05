@@ -51,9 +51,35 @@ nav a:hover{
     color: purple;
 }
 
+.produtos{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .produtos li{
     display: inline-block;
-    width: 30%;
-    margin: 0 1%;
-    vertical-align: middle;
+    margin: 5% 2%;
+    width: 25%;
+    vertical-align: top;
+    text-align: center;   
+    border: 5px solid gray;
+    border-radius: 1em;
+}
+
+.produtos h2{
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    color: black;
+    font-size: 1.2em;
+}
+
+.produtos-preco{
+    color: rgba(0, 0, 0, 0.612);
+    font-size: 1.5em;
+    font-weight: bold;
 }
