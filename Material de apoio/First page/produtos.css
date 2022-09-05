@@ -50,3 +50,10 @@ nav a{
 nav a:hover{
     color: purple;
 }
+
+.produtos li{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: middle;
+}
