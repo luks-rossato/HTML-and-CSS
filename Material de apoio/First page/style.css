@@ -1,69 +1,160 @@
-
-body {
-    
-    background-color: black;
+header{
+    background-color: gray;
+    padding: 10px 0;
 }
 
-.principal{
-    padding: 30px;
-    color: white;
-}
-
-.imagembanner{
-    width: 100%;
+.container{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
 
 }
 
 h1{
     color: white;
+    display: inline;
+    width: 30%;    
+    vertical-align: middle;
+}
+
+.logo{
+    width: 100px;
+    
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav li{
+    display:inline;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+.produtos{
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
 
-.title{
-    text-align: center;
-    color: white;
-    padding: 50px;
-}
-
-p{
-    text-align: center;
-}
-
-#missao{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-
-em strong{
-    color: red;
-}
-
-.title-center{
-    color: white;
-    text-align: center;
-}
-
-ul{
+.produtos li{
     display: inline-block;
-    vertical-align: middle;
-    width: 20%;
+    margin: 5% 1.5%;
+    width: 25%;
+    vertical-align: top;
+    text-align: center;   
+    border: 5px solid gray;
+    border-radius: 1em;
+    box-sizing: border-box;
 }
 
-.itens{
-    font-size: 20px;
-    text-decoration: underline;
+.produtos li:hover{
+    border: 7px solid purple;
 }
 
-.beneficios{
-    color: white;
+.produtos li:hover h2{
+    color: purple;
+}
+
+.produtos li:active{
+    border: 7px solid purple;
+}
+
+.produtos h2{
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    color: black;
+    font-size: 1.2em;
+}
+
+.produtos-preco{
+    color: rgba(0, 0, 0, 0.612);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer{
+    background-color: black;
+    padding: 5% 0;
     text-align: center;
-    font-size: 20px;
-    padding: 20px;
 }
 
-.imagembeneficios{
-    width: 50%;
-    vertical-align: middle;
+footer p{
+    color: white;
+    font-size: 1.2em;
+}
+
+.logo-footer{
+    width: 100px;
+    margin: 0 0 5%  0;
+}
+
+
+
+.main-contato{
+    background: url("layered-peaks-haikei.svg") no-repeat center center;
+    background-size: 100% ;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;    
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.formulario{
+    color: white;
+    font-size: 1.2em;
+    margin: 5% 5%;
+}
+
+.formulario label{
+    display: block;
+    margin: 5% 0 1% 0  ;
 
 }
+
+.formulario input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+

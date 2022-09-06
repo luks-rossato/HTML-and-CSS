@@ -51,49 +51,37 @@ nav a:hover{
     color: purple;
 }
 
-.produtos{
+main{
+    background: url("layered-peaks-haikei.svg") no-repeat center center fixed;
+    background-size: 100% ;
+}
+
+.container-main{
     width: 80%;
     margin: 0 auto;
+    text-align: center;    
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+
+
+footer{
+    background-color: black;
+    padding: 5% 0;
     text-align: center;
 }
 
-.produtos li{
-    display: inline-block;
-    margin: 5% 1.5%;
-    width: 25%;
-    vertical-align: top;
-    text-align: center;   
-    border: 5px solid gray;
-    border-radius: 1em;
-    box-sizing: border-box;
-}
-
-.produtos li:hover{
-    border: 7px solid purple;
-}
-
-.produtos li:hover h2{
-    color: purple;
-}
-
-.produtos li:active{
-    border: 7px solid purple;
-}
-
-.produtos h2{
-    color: black;
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-.produtos-descricao{
-    color: black;
+footer p{
+    color: white;
     font-size: 1.2em;
 }
 
-.produtos-preco{
-    color: rgba(0, 0, 0, 0.612);
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 10px 0;
+.logo-footer{
+    width: 100px;
+    margin: 0 0 5%  0;
 }
