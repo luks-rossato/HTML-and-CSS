@@ -205,3 +205,41 @@ table td {
     padding: 10px 010px;
     border: 1px solid black;
 }
+
+
+/* CSS da página index.html */
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+    text-align: center;
+    background-color: black;
+}
+
+.title-main{
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.main p {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 1em;
+}
+
+.main bold{
+    font-weight: bold;
+}
+
+.main em{
+    font-style: italic;
+}
+
+.imagembeneficios{
+    width: 60%;
+}
