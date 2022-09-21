@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: gray;
     padding: 10px 0;
@@ -223,6 +227,7 @@ table td {
     font-weight: bold;
     text-align: center;
     margin: 1em auto;
+    clear: left;
 }
 
 .main p {
@@ -238,6 +243,12 @@ table td {
 
 .main em{
     font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 1em;
 }
 
 .imagembeneficios{
